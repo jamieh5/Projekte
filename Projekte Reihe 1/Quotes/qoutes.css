@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 250px;
+  background-color: beige;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: steelblue;
+  color: white;
+  border: 0;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  font-size: 32px;
+}
+
+.next {
+  position: absolute;
+  right: -8%;
+}
+
+.prev {
+  position: absolute;
+  left: -8%;
+}
+
+.img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+}
+
+.qoute {
+  font-weight: bold;
+}
