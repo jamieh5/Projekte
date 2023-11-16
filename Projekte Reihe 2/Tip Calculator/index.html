@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <div class="container">
+      <input type="number" class="moneyBeforeTip" />
+
+      <div class="div-tip-input">
+        <input type="radio" class="fivePercent" name="tipPercentage" />
+        <label for="fivePercent">5% Tip</label>
+        <input type="radio" class="tenPercent" name="tipPercentage" />
+        <label for="tenPercent">10% Tip</label>
+        <input type="radio" class="fifteenPercent" name="tipPercentage" />
+        <label for="fifteenPercent">15% Tip</label>
+        <input type="radio" class="twentyPercent" name="tipPercentage" />
+        <label for="twentyPercent">20% Tip</label>
+      </div>
+      <button class="calculateTip" type="button">Calculate Tip</button>
+      <h2 class="moneyAfterTip"></h2>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

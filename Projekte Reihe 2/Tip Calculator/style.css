@@ -1,0 +1,25 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: #888;
+  width: 60%;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.div-tip-input,
+.moneyBeforeTip,
+.calculateTip {
+  margin: 10px;
+}
+
+.moneyAfterTip {
+  text-align: center;
+}
